@@ -1,0 +1,3 @@
+dm_vitrin_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DMVitrinBundle:Default:index }

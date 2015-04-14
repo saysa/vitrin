@@ -1,0 +1,4 @@
+dm_vitrin:
+    resource: "@DMVitrinBundle/Resources/config/routing.yml"
+    prefix:   /
+
