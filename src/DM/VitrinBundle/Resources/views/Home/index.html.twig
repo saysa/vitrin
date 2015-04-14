@@ -1,0 +1,21 @@
+{% extends '::base.html.twig' %}
+{% block title %}
+    Vitrin.fr - Votre partenaire shopping participatif - annuaire d'enseignes dans la France entière - guide d'achats des membres - Gagnez des points de fidélité ! - Accueil
+{% endblock %}
+
+{% block body %}
+<div id="conteneur">
+    include "inc/header.php"
+
+    <div id="header_bottom">
+        include "inc/navigation_horizontale.php";
+    </div>
+
+    <hr />
+
+    <div id="droite"><div class="wpd">
+        include("inc/droite_index.php");
+    </div></div>
+
+</div>
+{% endblock %}
